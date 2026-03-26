@@ -1,38 +1,29 @@
 #include "Driver.cpp"
 #include "HashTable.cpp"
 #include "LinkedList.cpp"
-
-class DriverDatabase{
-    private:
-    HashTable activeDrivers;
-    HashTable inactiveDrivers;
-    LinkedList licenseList;
-
-    public:
-    void addDriver(){
-
-    }
-
-    void removeDriver(){
-
-    }
-
-    Driver findDriver(int searchID){
-
-    }
-
-    void moveToInactive(int id){
-
-    }
-
-    void getOldestLicenses(int n){
-
-    }
-
-    void getNewestLicenses(int n){
-        
-    }
+#include "DriverDatabase.h"
 
 
+void DriverDatabase::addDriver(){
 
-};
+}
+
+void DriverDatabase::removeDriver(){
+
+}
+
+Driver DriverDatabase::findDriver(int searchID){
+
+}
+
+void DriverDatabase::moveToInactive(int id){
+
+}
+
+void DriverDatabase::getOldestLicenses(int n){
+
+}
+
+void DriverDatabase::getNewestLicenses(int n){
+
+}

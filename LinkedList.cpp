@@ -1,17 +1,10 @@
 #include "Driver.cpp"
+#include "LinkedList.h"
 
-struct LinkedListNode{
-    Driver* driver;
-    LinkedListNode* next;
-    LinkedListNode* prev;
-};
+void LinkedList::insert(Driver driverData){
 
-class LinkedList{
-    private:
-    LinkedListNode* head;
-    LinkedListNode* tail;
+}
 
-    public:
-    
+void LinkedList::remove(Driver driverData){
 
-};
+}
